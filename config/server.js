@@ -13,6 +13,7 @@ app.set('views', './app/views');
 app.use(express.static('./app/public'));
 app.use(express.json());
 app.use(express.urlencoded({extended: true}));
+app.use(expressValidator())
 
 consign()
 .include('app/routes')
