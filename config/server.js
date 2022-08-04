@@ -15,6 +15,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended: true}));
 app.use(expressValidator())
 
+
 consign()
 .include('app/routes')
 .then('app/models')
