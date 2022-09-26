@@ -1,6 +1,6 @@
 // parametrizando as libs
-const express = require("express");
-const consign = require("consign");
+const express = require('express');
+const consign = require('consign');
 const expressValidator = require('express-validator');
 
 //chama o express
